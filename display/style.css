@@ -1,0 +1,32 @@
+.block-element {
+    background-color: indianred;
+}
+
+.parrafo {
+    background-color: indianred;
+}
+
+nav {
+    position: relative;
+
+    background-color: indigo;
+   
+    height: 5rem;
+    text-align: center;
+    
+}
+
+ul {
+    position: absolute;
+    list-style: none;
+    
+    top: 20%;
+    height: 50%;
+}
+
+li {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+

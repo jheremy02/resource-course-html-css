@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3px solid black;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: blueviolet;
+}
+
+.box2 {
+    background-color: crimson;
+}
+
+.box3 {
+    background-color: darkcyan;
+}
+
+.box4 {
+    background-color: darkorange;
+}
+
+.box5 {
+    background-color: dodgerblue;
+}

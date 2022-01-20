@@ -1,0 +1,106 @@
+.navbar-list {
+    background-color:black;
+    color: white;
+
+}
+.navbar {
+    position:fixed ;
+    background-color:white;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+
+}
+
+.navbar .logo {
+    position: absolute;
+    
+    right:0px ;
+    left: 0px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* burguer menu */
+.navbar .burguer-label {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top:11px ;
+    background-color: white;
+    left: 5px;
+
+
+}
+
+.navbar .burguer-label::before {
+    content: "";
+    box-shadow: 0 3px 0 0 black, 0 10px 0 0 black , 0 17px 0 0 black  ;
+    width: 25px;
+    height: 3px;
+    position: absolute;
+
+
+}
+
+#burguer-checkbox {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top:11px ;
+    left: 5px;
+    margin: 0;
+    display: none;
+
+}
+
+#burguer-checkbox:checked ~ .navbar-list {
+    display: block;
+
+}
+
+
+
+.navbar .logo a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/*menu de opciones */
+
+.navbar-list {
+    position: fixed;
+    top: 50px;
+    bottom: 0px;
+    background-color: black ;
+    z-index: 99;
+    margin: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+.navbar-list .navbar-item {
+    text-align:center;
+    
+    
+}
+
+.navbar-list a {
+    margin: 1rem 0;
+    width: 100%;
+    
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+
+

@@ -1,0 +1,31 @@
+
+footer {
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.links-references {
+    padding:1.5rem;
+   
+}
+
+.social-links {
+    padding: 1.5rem;
+    
+}
+
+footer ul li {
+    list-style: none;
+}
+
+
+footer ul li a {
+    text-decoration: none;
+}
+

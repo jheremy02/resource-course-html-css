@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh ;
+}
+
+.container {
+    margin: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-01 {
+    background-color: deepskyblue;
+    position: relative;
+    flex: 1;
+    height: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.card-02 {
+    background-color: tomato;
+    position: relative;
+    flex: 1;
+    height: 150px;
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 460px;
+}
+
+.card-03 {
+    background-color: gold;
+    position: relative;
+    flex: 1;
+    height: 150px;
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 940px;
+}

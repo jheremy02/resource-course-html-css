@@ -1,0 +1,35 @@
+@font-face {
+    font-family: juego;
+    src: url(../fonts/gt.ttf);
+}
+
+
+section {
+    padding: 2rem 1rem;
+}
+
+h1 {
+    font-family: juego;
+}
+
+section > h1 , header span {
+    font-family: juego;
+
+}
+
+.page-title {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.logo a{
+    font-family: juego;
+    text-decoration: none;
+}
+
+section img {
+    width: 100%;
+}
+
+:root {
+    --burguer-width :25px;
+}
